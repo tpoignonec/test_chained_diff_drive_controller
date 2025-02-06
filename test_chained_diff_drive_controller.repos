@@ -3,10 +3,14 @@ repositories:
     type: git
     url: https://github.com/ros-controls/ros2_control.git
     version: master
+  # ros2_controllers:
+  #   type: git
+  #   url: https://github.com/ros-controls/ros2_controllers.git
+  #   version: master
   ros2_controllers:
     type: git
-    url: https://github.com/ros-controls/ros2_controllers.git
-    version: master
+    url: https://github.com/tpoignonec/ros2_controllers.git
+    version: tpo/fix_reference_chained_diff_drive  # PR branch
   ros2_control_demos:
     type: git
     url: https://github.com/ros-controls/ros2_control_demos.git
