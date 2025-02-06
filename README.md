@@ -82,4 +82,21 @@ ros2 control list_hardware_interfaces
 # Do steps above
 # Force cleanup ("CTRL + C" in first terminal)
 
+[ros2_control_node-1] [INFO] [1738851082.413181745] [rclcpp]: signal_handler(signum=2)
+[ros2_control_node-1] [INFO] [1738851082.413341045] [controller_manager]: Shutdown request received....
+[ros2_control_node-1] [INFO] [1738851082.413449482] [controller_manager]: Shutting down all controllers in the controller manager.
+[ros2_control_node-1] [INFO] [1738851082.413522403] [controller_manager]: Deactivating controller 'velocity_controller'
+[ros2_control_node-1] [INFO] [1738851082.413646793] [controller_manager]: Shutting down controller 'velocity_controller'
+[ros2_control_node-1] [INFO] [1738851082.413850337] [controller_manager]: Deactivating controller 'diff_drive_controller'
+[ros2_control_node-1] [INFO] [1738851082.413961466] [controller_manager]: Shutting down controller 'diff_drive_controller'
+[ros2_control_node-1] [INFO] [1738851082.414016203] [controller_manager]: Deactivating controller 'joint_state_broadcaster'
+[ros2_control_node-1] [INFO] [1738851082.414394653] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[ros2_control_node-1] [INFO] [1738851082.414590563] [resource_manager]: 'deactivate' hardware 'DiffBot' 
+[ros2_control_node-1] [INFO] [1738851082.414622477] [resource_manager]: Successful 'deactivate' of hardware 'DiffBot'
+[ros2_control_node-1] [INFO] [1738851082.414634115] [resource_manager]: 'shutdown' hardware 'DiffBot' 
+[ros2_control_node-1] [INFO] [1738851082.414641586] [resource_manager]: Successful 'shutdown' of hardware 'DiffBot'
+[ros2_control_node-1] [INFO] [1738851082.414696942] [controller_manager]: Shutting down the controller manager.
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 31887]
+[INFO] [ros2_control_node-1]: process has finished cleanly [pid 31886]
+[INFO] [rviz2-5]: process has finished cleanly [pid 31976]
 ```
